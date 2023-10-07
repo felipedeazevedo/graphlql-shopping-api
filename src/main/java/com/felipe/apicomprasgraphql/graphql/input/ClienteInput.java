@@ -1,4 +1,4 @@
-package com.felipe.apicomprasgraphql.input;
+package com.felipe.apicomprasgraphql.graphql.input;
 
 import lombok.Getter;
 import lombok.Setter;

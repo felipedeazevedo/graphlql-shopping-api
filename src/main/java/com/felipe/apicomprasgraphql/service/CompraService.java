@@ -5,6 +5,7 @@ import com.felipe.apicomprasgraphql.domain.Compra;
 import com.felipe.apicomprasgraphql.dto.CompraResumo;
 import com.felipe.apicomprasgraphql.repository.CompraRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -20,8 +21,8 @@ public class CompraService {
         return compraRepository.findById(id).orElse(null);
     }
 
-    public List<Compra> findAll() {
-        return compraRepository.findAll();
+    public List<Compra> findAll(Pageable pageable) {
+        return compraRepository.findAll(pageable).getContent();
     }
 
     @Transactional

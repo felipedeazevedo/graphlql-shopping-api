@@ -3,7 +3,7 @@ package com.felipe.apicomprasgraphql.graphql;
 import com.coxautodev.graphql.tools.GraphQLMutationResolver;
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import com.felipe.apicomprasgraphql.domain.Cliente;
-import com.felipe.apicomprasgraphql.input.ClienteInput;
+import com.felipe.apicomprasgraphql.graphql.input.ClienteInput;
 import com.felipe.apicomprasgraphql.service.ClienteService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

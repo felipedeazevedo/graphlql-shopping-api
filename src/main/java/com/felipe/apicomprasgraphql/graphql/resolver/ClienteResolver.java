@@ -1,4 +1,4 @@
-package com.felipe.apicomprasgraphql.resolver;
+package com.felipe.apicomprasgraphql.graphql.resolver;
 
 import com.coxautodev.graphql.tools.GraphQLResolver;
 import com.felipe.apicomprasgraphql.domain.Cliente;
