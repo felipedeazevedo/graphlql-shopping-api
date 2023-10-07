@@ -1,3 +1,3 @@
 # graphlql-shopping-api
 
-This porject was developed during a GraphQL/ Spring Boot course.
+This project was developed during a GraphQL/ Spring Boot course.
